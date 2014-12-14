@@ -1,16 +1,7 @@
-# How to run the program: ./cadb032 [test_input] [output]
-#
-# Test time for released benchmarks
-# bench_1.info: 1950
-# bench_2.info: 538826
-# bench_3.info: 53381
-# bench_4.info: 84888
-# bench_5.info: 78914
-# bench_6.info: 85751
-# bench_7.info: 63580
-# bench_8.info: 64396
-#
-# Some issues:
-#   We think there is a problem in the test program -- "check_test_schedule".
-#   For example, for the cores containing only External tests, the test program
-#   would report that there are BIST and External conflicts.
+Test Scheduling for Core-based SoC
+===============
+This is a problem of 2014 cad contest.
+
+Refer to http://cad_contest.ee.ncu.edu.tw/problem_e/default.html
+
+Our solution took a subset sum approach.
